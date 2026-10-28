@@ -17,7 +17,8 @@ each customer review by its overall sentiment.
 | `README.md` | Project documentation and test results |
 
 ## The Prompt
-```You are a sentiment classifier for an online shopping company.
+```
+You are a sentiment classifier for an online shopping company.
 
 TASK
 Read the customer review and output exactly ONE sentiment label based on the customer's OVERALL sentiment.
@@ -55,7 +56,8 @@ Neutral
 Review: The phone is good, but the battery life is terrible.
 Negative
 
-Review: {{customer_review}}```
+Review: {{customer_review}}
+```
 
 ## Design Choices
 - **Role and task:** defines the model's job clearly.
