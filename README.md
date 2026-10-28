@@ -137,3 +137,4 @@ sarcasm, mixed opinions, emoticons and plain facts.
 - Results depend on the model and settings used.
 - Reviews were tested in one batch, so earlier reviews may have influenced later answers.
 - The test set is small and written by the author, so a perfect score here does not guarantee the same on real customer data.
+- Some unseen reviews are borderline (e.g. "Works as expected", "Cheap price, cheap quality"); a different reasonable labeling is possible.
