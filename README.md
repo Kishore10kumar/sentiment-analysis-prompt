@@ -113,7 +113,24 @@ Review: {{customer_review}}
 | 30 | The item was delivered to my neighbour. | Neutral | Neutral | ✅ |
 
 ## Additional Tests (Unseen Reviews)
-(to be added after the first round)
+These 10 reviews were not used while designing the prompt. They cover Hinglish,
+sarcasm, mixed opinions, emoticons and plain facts.
+
+- **Testing method:** manual, in ChatGPT.
+- **Result:** 10/10 correct
+
+| # | Review | Expected | Output | Pass |
+|---|---|---|---|---|
+| 1 | Sound quality is amazing, totally worth every rupee. | Positive | Positive | ✅ |
+| 2 | Delivered in a brown cardboard box. | Neutral | Neutral | ✅ |
+| 3 | Bakwaas product, paisa barbaad. | Negative | Negative | ✅ |
+| 4 | The camera is great but the phone heats up and hangs constantly. | Negative | Negative | ✅ |
+| 5 | Not impressed at all. | Negative | Negative | ✅ |
+| 6 | Works as expected. | Neutral | Neutral | ✅ |
+| 7 | Cheap price, cheap quality. | Negative | Negative | ✅ |
+| 8 | Loved it!!! Will order again :) | Positive | Positive | ✅ |
+| 9 | I bought this for my brother's birthday. | Neutral | Neutral | ✅ |
+| 10 | Thanks for nothing, the charger died on day one. | Negative | Negative | ✅ |
 
 ## Limitations
 - No prompt can guarantee 100% accuracy; sentiment is subjective, and mixed reviews may reasonably be labelled either way.
